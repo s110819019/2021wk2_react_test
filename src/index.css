@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+html{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+body{
+    background-color: #FCFAF2;
+}
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700'); */
+body{
+  margin: 0;
+  padding: 0;
+}
+section article{
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 100px;
+}
+section article h1{
+  font-weight: 700;
+  font-size: 30px;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #593A27;
+  width: 40px;
+  height: 100vh;
+  overflow: hidden;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #FCFAF2;
+  font-size: 40px;
+  white-space: nowrap;
+  display: block;
+}
+nav ul li a:hover{
+  background-color: #A17917;
+}
+nav:hover{
+  width: 200px;
+}
+.fa-home{
+  margin-right: 2px;
+}
+.fa-user{
+  margin-right: 13px;
+}
+.fa-pencil{
+  margin-right: 6px;
+}
+/*  */
+.nav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .nav ul{
+  /*   outline: 3px solid blue; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+  }
+  .nav ul li{
+  /*   outline: 1px solid red; */
+    width: 100px;
+    width: calc((100% - 30px) / 5);
+    display: inline-block;
+  }
+  .nav ul li a{
+    text-decoration: none;
+    color: #FCFAF2;
+    background-color: #A17917;
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+  .nav ul li a:hover{
+    background-color: #687ab3;
+  }
+  .area{
+    height: 30vh;
+  }
